@@ -1,25 +1,26 @@
 # Wall-E Virtual Assistant
 
 Wall-E is a Python-based **voice-controlled virtual assistant** that can
-perform tasks such as:\
-- Answering questions using **Wikipedia**\
-- Opening websites like YouTube, Chrome, KV Noida site\
-- Controlling **system volume** (increase, decrease, mute)\
-- Starting the **webcam**\
-- Telling the **time**\
-- Joining **Microsoft Teams classes** automatically\
-- Introducing itself and interacting with the user
+perform tasks such as:
+
+-   Answering questions using **Wikipedia**
+-   Opening websites like YouTube, Chrome, KV Noida site
+-   Controlling **system volume** (increase, decrease, mute)
+-   Starting the **webcam**
+-   Telling the **time**
+-   Joining **Microsoft Teams classes** automatically
+-   Introducing itself and interacting with the user
 
 ------------------------------------------------------------------------
 
 ## 🚀 Features
 
 -   **Voice Interaction**: Uses `speech_recognition` and `pyttsx3` for
-    natural interaction.\
+    natural interaction.
 -   **Task Automation**: Automates Chrome, websites, and MS Teams via
-    Selenium.\
--   **Audio Control**: Adjusts system volume with `pycaw`.\
--   **Webcam Control**: Starts webcam feed with `OpenCV`.\
+    Selenium.
+-   **Audio Control**: Adjusts system volume with `pycaw`.
+-   **Webcam Control**: Starts webcam feed with `OpenCV`.
 -   **Classroom Automation**: Logs in and joins Teams classes with
     stored credentials.
 
@@ -57,7 +58,7 @@ here](https://chromedriver.chromium.org/downloads))
 3.  Update the **path to ChromeDriver**:
 
     ``` python
-    driver = webdriver.Chrome(executable_path="C:\\chromedriver\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="C:\chromedriver\chromedriver.exe")
     ```
 
 4.  Run the script:
@@ -89,4 +90,4 @@ Here are some example commands you can say:
   "Stop"                        Exits assistant
 
 ------------------------------------------------------------------------
-    
+
